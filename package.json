@@ -1,0 +1,68 @@
+{
+  "name": "kick-dom",
+  "version": "1.0.0",
+  "description": "A modern JavaScript utility library delivering modularity, performance, &amp; extras.",
+  "main": "./dist/kick-dom.c.js",
+  "module": "./dist/kick-dom.es.js",
+  "unpkg": "./dist/kick-dom.js",
+  "jsdelivr": "./dist/kick-dom.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "test": "jest --detectOpenHandles --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/kick-dom.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "dom",
+    "util",
+    "utils",
+    "celia",
+    "lodash",
+    "underscore"
+  ],
+  "author": "Jesse Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengxinming/kick-dom/issues"
+  },
+  "homepage": "https://github.com/fengxinming/kick-dom#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.0.0",
+    "corie-logger": "^3.2.5",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "fs-extra": "^7.0.1",
+    "jest": "^24.0.0",
+    "kyla": "^1.0.0-beta.2",
+    "moment": "^2.24.0",
+    "pug": "^2.0.3",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-alias": "^1.5.1",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-flow-no-whitespace": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "uglify-js": "^3.4.9",
+    "zlib": "^1.0.5"
+  },
+  "dependencies": {
+    "celia": "^5.0.1",
+    "kick-array": "^1.0.2"
+  }
+}
