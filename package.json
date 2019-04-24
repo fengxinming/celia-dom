@@ -1,6 +1,6 @@
 {
   "name": "kick-dom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A modern JavaScript utility library delivering modularity, performance, &amp; extras.",
   "main": "./dist/kick-dom.c.js",
   "module": "./dist/kick-dom.es.js",

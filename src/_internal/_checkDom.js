@@ -15,7 +15,7 @@ export function manip(dom, mcallback, callback) {
   } else {
     elem = dom;
   }
-  callback(elem);
+  elem && callback(elem);
   return dom;
 }
 
